@@ -1,7 +1,7 @@
  Desafio Modulo IV StartSe
  
  
- Olá, seja bem ivndo ao meu projeto “Lista de Jogos Remedy Entertaimnent” feito para o desafio do Módulo 4 do Curso Tech Academy
+ Olá, seja bem vindo ao meu projeto “Lista de Jogos Remedy Entertaimnent” feito para o desafio do Módulo 4 do Curso Tech Academy
  
  O objetivo principal do desafio era refatorar o projeto de um Portfólio fazendo alterações, colocar tags semânticas, mudar a o contexto (caso queira), dentre outros, colocando em prática tudo o que foi aprendido no curso até o momento.
  
