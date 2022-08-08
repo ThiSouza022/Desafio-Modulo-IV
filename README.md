@@ -12,15 +12,15 @@
  
  <a href="https://thisouza022.github.io/Desafio-Modulo-IV-StartSe/"> Acessar o Site! </a>
  
-  <h2 align-"center> 
+  <h2 align-"center"> 
   Antes
-  </h2>
   <img src="/assets/gif/Before.gif">
+  </h2>
  
   <h2 align="center">
   Depois
-   </h2>
   <img src="/assets/gif/After.gif">
+  </h2>
   
  ## Observações
  
