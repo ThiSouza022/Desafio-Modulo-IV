@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;600;700;900&display=swap');
 
-
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
-img{
+img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -23,7 +21,7 @@ html {
     font-family: 'Archivo', sans-serif, 'Times New Roman', Times, serif;
 }
 
-body{
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -32,21 +30,18 @@ a {
     text-decoration: none;
 }
 
-/* Seção de apresentação */
-
-
-
+/* Presentation Section */
 
 .container {
     min-height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-#presentation{
+#presentation {
     left: 0;
     top: 0;
     width: 100%;
@@ -55,11 +50,11 @@ a {
     background-size: cover;
     background-position: top center;
     position: relative;
-    z-index: 1;   
+    z-index: 1;
 }
 
-#presentation h1{
-    display:block;
+#presentation h1 {
+    display: block;
     width: fit-content;
     font-size: 3rem;
     font-weight: 700;
@@ -69,18 +64,15 @@ a {
     padding: 0 8px;
     letter-spacing: .2rem;
     opacity: 0;
-    background: 50% 50% / 50% 100% no-repeat
-    radial-gradient(ellipse at top, white, transparent, transparent);
+    background: 50% 50% / 50% 100% no-repeat radial-gradient(ellipse at top, white, transparent, transparent);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: reveal 3s ease-in-out forwards .2s;    
+    animation: reveal 3s ease-in-out forwards .2s;
 }
 
-
-
-#presentation .cta{
-    display:inline-block;
+#presentation .cta {
+    display: inline-block;
     font-size: 2rem;
     color: white;
     border: 2px;
@@ -90,83 +82,74 @@ a {
     transition: .3s ease;
     border-radius: 20px;
     opacity: 0;
-    animation: areveal 2s ease-in-out forwards .2s; 
+    animation: areveal 2s ease-in-out forwards .2s;
     font-weight: 500;
 
 }
 
-#presentation .cta:hover{
+#presentation .cta:hover {
     color: orange;
     letter-spacing: .3rem;
     font-weight: 200;
-
 }
 
-#presentation::after{
+#presentation::after {
     content: '';
     position: absolute;
-    left:0;
+    left: 0;
     top: 0;
     height: 100%;
-    width:100%;
-    background-image: linear-gradient(rgba(70,70,70, 0.5) 0%, rgb(10,10,10) 100%); 
+    width: 100%;
+    background-image: linear-gradient(rgba(70, 70, 70, 0.5) 0%, rgb(10, 10, 10) 100%);
     opacity: 1;
-    z-index: -1;  
+    z-index: -1;
 }
 
 .central {
-    
-    background-image: linear-gradient( 180deg, rgba(70,70,70, 0.2) 0%, rgba(29, 28, 28, 0.3) 80%); 
+    background-image: linear-gradient(180deg, rgba(70, 70, 70, 0.2) 0%, rgba(29, 28, 28, 0.3) 80%);
     border-radius: 100px;
     padding: 20px;
 }
-
-
 
 #logo {
     width: 100px;
     margin: 15px;
     opacity: 0;
-    animation: imgreveal 2s ease-in-out forwards .2s; 
+    animation: imgreveal 2s ease-in-out forwards .2s;
 }
-
 
 /* Projects Section */
 
-#projects{
-    background-color: rgba(10,10,10, 1);  
+#projects {
+    background-color: rgba(10, 10, 10, 1);
 }
 
+#projects .projects {
 
-#projects .projects{
-    
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
-      
 }
 
 .section-title {
     margin: 40px 30px 50px;
     font-size: 2.8rem;
     font-weight: 700;
-    color: white;  
-    letter-spacing: 0.2rem; 
+    color: white;
+    letter-spacing: 0.2rem;
     line-height: 4rem;
-    
 }
 
-#projects .all-projects{
-    width:100%;
+#projects .all-projects {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
-#projects .project-item{
+#projects .project-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,11 +158,9 @@ a {
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
-    
 }
 
-
-#projects .project-info{
+#projects .project-info {
     text-align: center;
     padding: 10px;
     flex-basis: 65%;
@@ -190,10 +171,9 @@ a {
     flex-direction: column;
     background-image: linear-gradient(90deg, #2b9348 0%, #498b2a 100%);
     color: white;
-    
 }
 
-#projects .project-info h1{
+#projects .project-info h1 {
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: .2rem;
@@ -201,16 +181,14 @@ a {
 }
 
 #projects .project-info h2 {
-    
     font-size: 2rem;
     font-weight: 500;
     margin-top: 5px;
     line-height: 2rem;
     letter-spacing: .2rem;
-    
 }
 
-#projects .project-item p{
+#projects .project-item p {
     text-align: left;
     font-size: 1.6rem;
     margin-top: 5px;
@@ -221,16 +199,16 @@ a {
     letter-spacing: .1rem;
 }
 
-#projects .project-image{
-    
-    flex-basis: 35%;   
+#projects .project-image {
+
+    flex-basis: 35%;
     height: 300px;
     overflow: hidden;
     position: relative;
-    
+
 }
 
-#projects .project-image::after{
+#projects .project-image::after {
     content: '';
     position: absolute;
     left: 0;
@@ -241,46 +219,39 @@ a {
     opacity: 0.4;
 }
 
-#projects .project-item img{
+#projects .project-item img {
     transition: 0.5s ease transform;
 }
 
-#projects .project-item:hover img{
-    transform: scale(1.1);
-    
+#projects .project-item:hover img {
+    transform: scale(1.1)
 }
-
-
-
 
 
 /*Footer*/
 
-footer{
-    position:inherit;
+footer {
+    position: inherit;
     bottom: 0px;
     width: 100%;
     background-color: black;
 }
 
-footer .main-content{
+footer .main-content {
     display: flex;
     color: white;
     flex-basis: 50%;
     padding: 40px;
     text-align: center;
-    
 }
 
-footer .main-content h1{
+footer .main-content h1 {
     font-size: 2.3rem;
     font-weight: 600;
     margin: 20px 0 0 0;
-
 }
 
-
-footer .main-content p{
+footer .main-content p {
     font-size: 1.8rem;
     font-weight: 300;
     margin: 20px 0 0 0;
@@ -289,11 +260,11 @@ footer .main-content p{
 
 }
 
-footer .social-icons{
+footer .social-icons {
     margin: 10px 0 50px 0;
 }
 
-footer .social-icons a{
+footer .social-icons a {
     padding: 7px;
     width: 40px;
     height: 40px;
@@ -304,98 +275,94 @@ footer .social-icons a{
     border-radius: 5px;
     font-size: 18px;
     margin: 0 5px;
-
 }
-footer .social-icons a:hover{
+
+footer .social-icons a:hover {
     background-color: white;
 }
 
-
-
-
-
-
-
 /* Keyframes */
 
-@keyframes animate {                       
-    0%, 10%, 100% {                          /*the two images is to fix a visual bug*/
-        background-image: url(../assets/img/Background1.jpg), url(../assets/img/Background2.jpg); 
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        /*the two images is to fix a visual bug*/
+        background-image: url(../assets/img/Background1.jpg), url(../assets/img/Background2.jpg);
     }
-    35%, 45% {
+
+    35%,
+    45% {
         background-image: url(../assets/img/Background2.jpg), url(../assets/img/Background3.jpg);
     }
-    70%, 80% {
+
+    70%,
+    80% {
         background-image: url(../assets/img/Background3.jpg), url(../assets/img/Background1.jpg);
-    }  
-} 
-
-
-
-@keyframes reveal {
-    20%{
-        opacity:1;
-    }
-
-    70% {
-      background-size: 300% 300%;
-    }
-    100%{
-        color:white;
-        opacity:1;
-        
     }
 }
 
-@keyframes imgreveal{
-    100%{
+
+@keyframes reveal {
+    20% {
+        opacity: 1;
+    }
+
+    70% {
+        background-size: 300% 300%;
+    }
+
+    100% {
+        color: white;
+        opacity: 1;
+    }
+}
+
+@keyframes imgreveal {
+    100% {
         opacity: 1;
     }
 }
 
 @keyframes areveal {
-    
-    60%{
-        opacity:0;
+    60% {
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
 }
 
 
-
-
-
 /* Media Query */
 
-@media only screen and (min-width: 890px){
-
+@media only screen and (min-width: 890px) {
     .section-title {
-
         font-size: 3.5rem;
     }
 
-    #projects .project-item{
+    #projects .project-item {
         flex-direction: row;
         height: 400px;
         margin: 10px;
         width: 100%;
-        border-radius:0;  
+        border-radius: 0;
     }
 
-    #projects .all-projects .project-info{
+    #projects .all-projects .project-info {
         height: 100%;
     }
 
-    
-    #projects .project-info h1{
+
+    #projects .project-info h1 {
         font-size: 3.8rem;
         font-weight: 600;
         letter-spacing: .2rem;
         padding-top: 20px;
     }
-    
+
     #projects .project-info h2 {
         font-size: 2rem;
         font-weight: 500;
@@ -403,8 +370,8 @@ footer .social-icons a:hover{
         line-height: 2rem;
         letter-spacing: .2rem;
     }
-    
-    #projects .project-item p{
+
+    #projects .project-item p {
         text-indent: 2em;
         text-align: justify;
         font-size: 1.6rem;
@@ -416,28 +383,15 @@ footer .social-icons a:hover{
         letter-spacing: .1rem;
     }
 
-    #projects .project-item:nth-child(even){
+    #projects .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
 
-    #projects .all-projects .project-image{
-        height: 100%;    
+    #projects .all-projects .project-image {
+        height: 100%;
     }
 
-    footer .main-content p{
+    footer .main-content p {
         text-align: center;
     }
-    
-} 
-
-
-
-
-
-
-
-
-
- 
-
-
+}
