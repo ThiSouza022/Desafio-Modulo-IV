@@ -29,7 +29,12 @@
  <img src="/assets/gif/After.gif">
   </h2>
 
+## Tecnologias e ferramentas utilizadas
+Para o desenvolvimento deste projeto foi utilizado:
 
+- HTML5
+- CSS3
+- Visual studio Code
   
  ## Observações
  
