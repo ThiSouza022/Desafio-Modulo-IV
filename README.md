@@ -16,7 +16,10 @@
   <h2 align="center"> 
   Antes
   </h2>
-  <img src="/assets/gif/Before.gif">
+  
+  <h2 align="center"> 
+ <img src="/assets/gif/Before.gif">
+  </h2>
   
  
   <h2 align="center">
