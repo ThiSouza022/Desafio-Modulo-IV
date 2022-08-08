@@ -14,11 +14,13 @@
  
   <h2 align-"center"> 
   Antes
+  
   <img src="/assets/gif/Before.gif">
   </h2>
  
   <h2 align="center">
   Depois
+ 
   <img src="/assets/gif/After.gif">
   </h2>
   
