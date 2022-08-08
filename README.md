@@ -11,7 +11,8 @@
  <a href="https://thisouza022.github.io/Desafio-Modulo-IV-StartSe/"> Acessar o Site! </a>
  
  ## Antes
-    <img src="/assets/gif/Before.gif">
+  <img src="/assets/gif/Before.gif">
+
  ## Depois
   <img src="/assets/gif/After.gif">
   
