@@ -1,4 +1,4 @@
- # Desafio Modulo IV StartSe
+ # Lista de Jogos Remedy Entertainment - Desafio Módulo IV StartSe
  
  ## Descrição do Projeto
  
