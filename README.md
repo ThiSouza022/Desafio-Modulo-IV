@@ -39,4 +39,5 @@ Para o desenvolvimento deste projeto foi utilizado:
  ## Observações
  
  O projeto ficou entre os 3 melhores de mais de 300 projetos!
+ 
  Futuramente gostaria de adicionar algumas coisas ao projeto já que esse foi meu primeiro projeto com HTML e CSS 
