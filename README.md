@@ -25,7 +25,10 @@
   <h2 align="center">
   Depois
   </h2>
-  <img src="/assets/gif/After.gif">
+    <h2 align="center"> 
+ <img src="/assets/gif/After.gif">
+  </h2>
+
 
   
  ## Observações
