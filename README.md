@@ -7,9 +7,14 @@
  O objetivo principal do desafio era refatorar o projeto de um Portfólio fazendo alterações, colocar tags semânticas, mudar a o contexto (caso queira), dentre outros, colocando em prática tudo o que foi aprendido no curso até o momento.
  
  Então, resolvi alterar a temática do projeto que antes era de um Portfólio para fazer uma lista de jogos uma das minhas empresas de favoritas do ramo, a Remedy Entertaimnent, colocando alguns dos seus principais jogos, suas datas de lançamentos e descrições.
+ 
  <a href="https://thisouza022.github.io/Desafio-Modulo-IV-StartSe/"> Acessar o Site! </a>
  
- 
+ ## Antes
+    <img align="center" src="/assets/gif/Before.gif">
+ ## Depois
+  <img align="center" src="/assets/gif/After.gif">
+  
  ## Observações
  
  O projeto ficou entre os 3 melhores de mais de 300 projetos!
