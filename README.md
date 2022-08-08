@@ -1,4 +1,5 @@
- <h1 align-"center">
+ <h1 align="center">
+ 
  Lista de Jogos Remedy Entertainment - Desafio Módulo IV StartSe
  </h1>
  
@@ -12,13 +13,13 @@
  
  <a href="https://thisouza022.github.io/Desafio-Modulo-IV-StartSe/"> Acessar o Site! </a>
  
-  <h2> 
+  <h2 align="center"> 
   Antes
   </h2>
   <img src="/assets/gif/Before.gif">
   
  
-  <h2>
+  <h2 align="center">
   Depois
   </h2>
   <img src="/assets/gif/After.gif">
